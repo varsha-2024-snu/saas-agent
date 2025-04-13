@@ -1,0 +1,16 @@
+google-generativeai
+python-dotenv
+requests
+redis
+pytest
+pinecone-client
+# Remove openai package
+google-generativeai>=0.3.0
+tiktoken
+python-docx  # For processing Word docs
+markdown2  # For processing MD files
+pypdf>=3.0.0  # PDF text extraction
+pdfminer.six  # Alternative parser
+unstructured  # Advanced PDF handling (tables/images)
+chromadb>=0.4.0
+sentence-transformers  # For local embeddings
